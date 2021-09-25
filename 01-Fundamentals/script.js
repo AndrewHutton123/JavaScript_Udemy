@@ -6,7 +6,13 @@ console.log("Jonas");
 let firstName = "Jonas";
 console.log(firstName);
 
-let myFirstJob = 'Programmer';
-let myCurrentJob = 'Teacher';
-console.log(myFirstJob);
-console.log(myCurrentJob);
+let country = "England";
+let continent = "Europe";
+let population = 65000000;
+let isIsland = true;
+let language;
+
+console.log(country);
+console.log(continent);
+console.log(population);
+console.log(isIsland);
