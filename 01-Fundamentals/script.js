@@ -1,11 +1,4 @@
-let js = 'amazing';
-console.log(40 + 8 + 23 - 10);
-
-console.log("Jonas");
-
-let firstName = "Jonas";
-console.log(firstName);
-
+//Challenges
 let country = "England";
 let continent = "Europe";
 let population = 65000000;
@@ -16,3 +9,16 @@ console.log(country);
 console.log(continent);
 console.log(population);
 console.log(isIsland);
+
+//Practice Code
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+let x = 10 + 5;
+
+console.log(ageJonas > ageSarah);
+
+
+
