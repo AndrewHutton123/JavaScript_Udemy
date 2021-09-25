@@ -1,4 +1,4 @@
-//Challenges
+//First Challenge
 const markWeight1 = 78;
 const markHeight1 = 1.69;
 const johnWeight1 = 92;
@@ -22,16 +22,6 @@ const markHigherBMI1 = markBMI1 > johnBMI1;
 const markHigherBMI2 = markBMI2 > johnBMI2;
 console.log(markHigherBMI1,markHigherBMI2);
 
-//Practice Code
-
-const age = 19;
-
-
-if(age >= 18) {
-    console.log('Can Start Drving ')
-} else{
-    console.log('Cannot Drive')
-}
 
 //Second Challenge
 
@@ -40,3 +30,40 @@ if (markHigherBMI1 == true){
 } else{
     console.log('John has the Higher BMI')
 }
+
+//Third Challenge
+
+const dolphinScore = (96 + 108 + 89) / 3;
+const koalasScore = (88 + 91 + 110) / 3
+
+if (dolphinScore > koalasScore || dolphinScore < koalasScore){
+    if(dolphinScore > koalasScore){
+        console.log("Dolphins Win");
+    }else{
+        console.log("Koalas Win");
+    }
+
+}else{
+    console.log("Its a draw");
+}
+
+const dolphinScore2 = (97 + 108 + 89) / 3;
+const koalasScore2 = (109 + 95 + 123) / 3;
+
+if (dolphinScore2 > koalasScore2 || dolphinScore2 < koalasScore2){
+    if(dolphinScore2 > koalasScore2 && dolphinScore2 >= 100){
+        console.log("Dolphins 2 Win");
+    }else{
+        if(koalasScore2 >= 100)
+        console.log("Koalas 2 Win");
+    }
+
+}else{
+    console.log("Its a draw");
+}
+
+//Forth Challenge
+
+//Practice Code
+
+
