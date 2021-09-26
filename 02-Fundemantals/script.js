@@ -1,6 +1,23 @@
 'use strict';
 
 //First Challenge
+const calcAverage = (score1,score2,score3) => (score1 + score2 + score3) / 3;
+
+const dolphinAverage = calcAverage(44,23,71)
+const koalasAverage = calcAverage(65,54,49)
+
+checkWinner(dolphinAverage,koalasAverage);
+function checkWinner(dolphinAverage,koalasAverage){
+    if (dolphinAverage >= 2 * koalasAverage ){
+        console.log(`Dolphins win (${dolphinAverage} vs ${koalasAverage})`);
+    }
+    else if(dolphinAverage <= 2 * koalasAverage){
+        console.log(`Koalas win (${dolphinAverage} vs ${koalasAverage})`);
+    }else{
+        console.log(`No one wins`)
+    }
+}
+
 
 //Second Challenge
 
