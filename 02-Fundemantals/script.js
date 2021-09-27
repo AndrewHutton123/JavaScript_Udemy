@@ -18,8 +18,20 @@ function checkWinner(dolphinAverage,koalasAverage){
     }
 }
 
-
 //Second Challenge
+
+const billArray = [125,555,44];
+
+calcTip(billArray);
+function calcTip(billValue){
+    
+    return billValue <= 300 && billValue >= 50 ? billValue * 0.15:
+    billValue * 0.2;
+    
+}
+const tips = [calcTip(billArray[0]), calcTip(billArray[1]), calcTip(billArray[2])]
+console.log(billArray,tips);
+
 
 //Third Challenge
 
@@ -65,11 +77,10 @@ function fruitProcessor(apples, oranges) {
 console.log(fruitProcessor(4,5));
 
 //Intro To Arrays
-/*
-const friends = ['Micheal','Steven','Peter'];
 
-console.log(friends);
-*/
+const friends1 = ['Micheal','Steven','Peter'];
+console.log(friends1);
+
 //Array Operations: 
 //.push adds to the end of an array, 
 //.unshift adds to the front of the array
