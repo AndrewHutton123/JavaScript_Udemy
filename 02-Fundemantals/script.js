@@ -63,3 +63,30 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(4,5));
+
+//Intro To Arrays
+/*
+const friends = ['Micheal','Steven','Peter'];
+
+console.log(friends);
+*/
+//Array Operations: 
+//.push adds to the end of an array, 
+//.unshift adds to the front of the array
+// .pop removes the last element from array
+//.indexOf returns the position of the index with a number
+//.includes checks if the element is in the array and returns a boolean result
+const friends = ['Micheal','Steven','Peter'];
+//.push returns the number of elements in the array
+const newLength = friends.push('Jay');
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('John');
+
+friends.pop();
+
+friends.indexOf('Micheal');
+
+console.log(friends.includes('Steven'))
+
