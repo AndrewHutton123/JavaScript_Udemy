@@ -29,8 +29,7 @@ function calcTip(billValue){
     billValue * 0.2;
     
 }
-const tips = [calcTip(billArray[0]), calcTip(billArray[1]), calcTip(billArray[2])]
-console.log(billArray,tips);
+
 
 
 //Third Challenge
@@ -64,6 +63,20 @@ const johnObject = {
 }
 johnObject.calcBMI();
 //Forth Challenge
+
+const bills = [22,295,176,440,37,105,10,1100,86,52]
+const tips = []
+const totals = []
+
+
+
+
+for (let i = 1; i < bills.length; i++){
+    const tip = calcTip(bills[i]);
+    tips.push(tip);
+    totals.push(tip+bills[i]);
+    console.log(tips,totals);
+}
 
 /*Function declaration
 function fruitProcessor(apples, oranges) {
@@ -220,4 +233,16 @@ for (let exercise = 1; exercise <= 3; exercise++){
         console.log(`Lifting weights rep ${rep}`);
     }
 
+}
+
+//while loop
+
+for(let rep = 1; rep <= 10; rep++){
+    console.log(`Lifting weights repetition ${rep}`);
+
+}
+let rep = 1;
+while(rep <= 10){
+    console.log(`Lifting weights repetition ${rep}`);
+    rep++;
 }
