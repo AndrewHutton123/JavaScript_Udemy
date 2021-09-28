@@ -35,6 +35,34 @@ console.log(billArray,tips);
 
 //Third Challenge
 
+const markObject = {
+    firstName: 'Mark',
+    lastName: 'Miller',
+    mass: 78,
+    height: 1.69,
+
+    calcBMI: function(){
+        this.bmi = this.mass / this.height * 2;
+        return this.bmi;
+    } 
+}
+markObject.calcBMI();
+console.log(mark.bmi)
+johnObject.calcBMI();
+
+console.log (markObject.bmi);
+const johnObject = {
+    firstName: 'John',
+    lastName: 'Smith',
+    mass: 92,
+    height: 1.95,
+
+    calcBMI: function(){
+        this.bmi = this.mass / this.height * 2;
+        return this.bmi;
+    } 
+}
+
 //Forth Challenge
 
 /*Function declaration
@@ -105,12 +133,23 @@ console.log(friends.includes('Steven'))
 //Array vs Objects Array order matters whereas object order doesn't
 
 const andy = {
+    //List of propertys
     firstName: 'Andrew',
     lastName: 'Hutton',
-    age: 2021 - 1999,
+    birthYear: 1999,
     job: 'Student',
-    friends: ['Micheal', 'Peter', 'Steven']
+    friends: ['Micheal', 'Peter', 'Steven'],
+    hasDriversLicense: true,
+
+    // Object Methods
+    calcAge: function() {
+        //this. calls the poperty in the object
+        this.age = 2021 - this.birthYear;
+        return this.age;
+    }
+
 };
+console.log(andy.age);
 
 //Dot Notation
 console.log(andy.lastName);
