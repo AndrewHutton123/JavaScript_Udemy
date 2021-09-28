@@ -47,8 +47,8 @@ const markObject = {
     } 
 }
 markObject.calcBMI();
-console.log(mark.bmi)
-johnObject.calcBMI();
+console.log(markObject.bmi)
+
 
 console.log (markObject.bmi);
 const johnObject = {
@@ -62,7 +62,7 @@ const johnObject = {
         return this.bmi;
     } 
 }
-
+johnObject.calcBMI();
 //Forth Challenge
 
 /*Function declaration
@@ -163,3 +163,37 @@ andy['twitter'] = '@andyHutton';
 
 console.log(`${andy.firstName} has ${andy.friends.length} and his best freind
 is ${andy.friends[0]}`)
+
+
+//Iteration: The for Loop
+
+console.log('lifting weights repetition 1');
+
+//for loop keeps runnign while condition is true
+for(let rep = 1; rep <= 10; rep++){
+    console.log(`Lifting weights repetition ${rep}`);
+
+}
+
+//Looping Arrays, Breaking and Continuing
+
+//Array
+const andy1 = [
+    'Andrew',
+    'Hutton',
+     1999,
+    'Student',
+    ['Micheal', 'Peter', 'Steven']
+];
+
+for(let i = 0; i < length.andy1 ; i++){
+    console.log(andy1[i], typeof andy1[i]);
+}
+
+const years = [1991,2007,1969,2020];
+const ages = [];
+for(let i = 0; i < length.years; i++){
+    ages.push(2021 - years[i]);
+    
+}
+console.log(ages);
