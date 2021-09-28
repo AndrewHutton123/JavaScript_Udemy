@@ -101,3 +101,12 @@ friends.indexOf('Micheal');
 
 console.log(friends.includes('Steven'))
 
+//Intro To Objects
+
+const andy = {
+    firstName: 'Andrew',
+    lastName: 'Hutton',
+    age: 2021 - 1999,
+    job: 'Student',
+    friends: ['Micheal', 'Peter', 'Steven']
+}
