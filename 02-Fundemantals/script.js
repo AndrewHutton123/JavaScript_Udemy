@@ -102,6 +102,7 @@ friends.indexOf('Micheal');
 console.log(friends.includes('Steven'))
 
 //Intro To Objects
+//Array vs Objects Array order matters whereas object order doesn't
 
 const andy = {
     firstName: 'Andrew',
@@ -109,4 +110,17 @@ const andy = {
     age: 2021 - 1999,
     job: 'Student',
     friends: ['Micheal', 'Peter', 'Steven']
-}
+};
+
+//Dot Notation
+console.log(andy.lastName);
+andy.location = 'England';
+
+//Bracket Notation is better as it is more flexible
+console.log(andy['lastName']);
+andy['twitter'] = '@andyHutton';
+
+//Small Challenge
+
+console.log(`${andy.firstName} has ${andy.friends.length} and his best freind
+is ${andy.friends[0]}`)
