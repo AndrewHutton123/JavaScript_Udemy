@@ -192,8 +192,32 @@ for(let i = 0; i < length.andy1 ; i++){
 
 const years = [1991,2007,1969,2020];
 const ages = [];
-for(let i = 0; i < length.years; i++){
+for(let i = 0; i < years.length; i++){
     ages.push(2021 - years[i]);
     
 }
 console.log(ages);
+
+//Loop over an array backwards
+
+const andy2 = [
+    'Andrew',
+    'Hutton',
+     1999,
+    'Student',
+    ['Micheal', 'Peter', 'Steven']
+];
+
+for(let i = andy2.length - 1; i >= 0; i--){
+    console.log(i,andy2[i]);
+}
+
+//Nested for loop
+
+for (let exercise = 1; exercise <= 3; exercise++){
+    console.log(`--------- Starting exercise ${exercise}`);
+    for(let rep = 1; rep < 6; rep ++){
+        console.log(`Lifting weights rep ${rep}`);
+    }
+
+}
